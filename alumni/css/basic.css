@@ -1,0 +1,82 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+background-color : white;
+}
+
+@charset "UTF-8";
+/* Starter CSS for Flyout Menu */
+#header,
+#header ul,
+#header li #header a {
+  width: 100%;
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  /*font-family: Helvetica;*/
+  line-height: 0.2;
+}
+#header {
+  width: 100%;
+ 
+  background-color: black;
+}
+#header ul {
+ 
+  zoom: 1;
+  background:  #1F1F7A url(images/pattern.png) top left repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #1F1F7A;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+#header ul:before {
+  content: '';
+  display: block;
+}
+#header ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#header a,
+#header a:link,
+#header a:visited {
+
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 -1px 1px #586835;
+  border-right: -1px solid #839b4e;
+}
+#header a:hover {
+  color:  #ccff33;
+  text-shadow: 0 1px 1px #bdcd9c;
+}
+#header li {
+  float: left;
+  border-right: 0px solid #b2c58b;
+}
+#header li:hover {
+  background: #141452 url(images/pattern.png) top left repeat;
+}
+#header li:first-child {
+  border-left: none;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+
+
+
+

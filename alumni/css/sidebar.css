@@ -1,0 +1,121 @@
+.navBottomBorder {
+	background:#25256E; /*#191970; /* color for line  for transparent give #6161A3*/
+	height:3px;
+	clear:both;
+}
+
+.contentColumnWrapper {
+	margin:10px;
+	overflow:hidden;
+}
+.twoColumnContent {
+	width:48%;
+	margin-right:2%;
+	overflow:hidden;
+	float:left;
+}
+
+.contentColumnWrapper ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+.contentColumnWrapper li {
+	background:url(../imgcoep/list-arrow.png) no-repeat 0 5px;
+	display:block;
+	padding:0 0 0 13px;
+	margin-bottom:3px;
+}
+.twoColumnContent li{margin-bottom:10px;}
+.contentColumnWrapper li a {
+	font-size:12px;
+	color:#25256E;/*#4B0082; /*#191919;*/
+	display:inline-block;
+	text-decoration:none;
+	text-align:justify;
+	
+}
+.contentColumnWrapper li a:hover {
+	text-decoration:underline;
+}
+.contentColumnWrapper li div {
+	border-bottom:1px solid #c4c7c4;
+	padding:0px 0px 10px 0px;
+	margin-bottom:10px;
+}
+.columnBorderLine {
+background:#
+}
+.last {
+	margin-right:0px !important;
+}
+.columnBottomShadow {
+	background:url(../imgcoep/column-bottom-shadow.png) no-repeat;
+	height:3px;
+	margin:0 0 5px 0;
+}
+.sidebarWrapper {
+	width:196px;
+	float:left;
+}
+.rightContentWrapper {
+	width:754px;
+	float:left;
+	background:url(../imgcoep/content-top-shadow.png) repeat-x;
+        padding-bottom: 10px;
+}
+.innerPadding {
+	width:714px;
+	margin:10px auto 20px auto;
+}
+.sidebarNav {
+	background:#e9f2eb; /*background color of the side panel*/
+	border-right:1px solid #7f9f84;
+	border-bottom:1px solid #7f9f84;
+}
+.sidebarNavBottomShadow {
+	background:url(../imgcoep/sidebar-bottom-shadow-img.gif) no-repeat;
+	height:7px;
+	margin:0 0 20px 0;
+}
+.sidebarNavTitle {
+	padding:6px 10px 5px 14px;
+	background:#1F1F7A;/*#25256E;/*#4B0082 ; /*#2e653c; color of get connected*/
+	height:19px;
+}
+.sidebarTitleLeftImg {
+	background:url(../imgcoep/sidebar-title-bg-img.gif) no-repeat;
+	height: 42px;
+	left: 13px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 7px;
+}
+.sidebarNavTitle h2 {   /*getconnected*/
+	color:#fff;
+	margin:0px;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.sidebarNav ul {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.sidebarNav ul li {
+}
+.sidebarNav ul li a {
+	color:#25256E;/*#191919;*/
+	font-size:12px;
+	text-decoration:none;
+	background:url(../imgcoep/list-arrow.png) no-repeat 15px 13px;
+	padding:8px 5px 8px 25px;
+	display:block;
+}
+.sidebarNav ul li a:hover, .sidebarNav ul li a:active, .current {
+	background:url(../imgcoep/list-arrow.png) no-repeat 15px 13px #D0D0E3 !important;
+	/*color:#6161A3;/*#483D8B; /*color of letter on hover #bdeac9*/
+}
+
